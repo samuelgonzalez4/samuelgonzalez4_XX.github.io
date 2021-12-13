@@ -1,0 +1,68 @@
+/* This is a comment in CSS! */
+
+body {
+  font-family: "Times New Roman", "Georgia", serif;
+  font-size: 18px;
+  background-color: rgb(245,245,220);
+  color: rgb(0,0,0);
+}
+
+body {
+  padding: 50px;
+  border: 0px;
+  margin:0px;
+}
+
+body
+/* unvisited link */
+a:link {
+  color: #00529F;
+}
+
+/* visited link */
+a:visited {
+  color: #00008B;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+  color: #FFFFFF
+}
+
+p {
+  font-family: 'Open Sans'; sans-serif;
+  max-width: 60ch;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+table, th, td {
+  border: 5px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 1px;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 50%;
+}
+
+figcaption {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  text-align: left;
+  max-width: 60ch;
+}
